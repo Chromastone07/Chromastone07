@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm suraj pandit</h1>
+        <p>Aspiring Developer | Tech Enthusiast</p>
+    </header>
+  
+    <section class="about fade-in">
+        <h2>About Me</h2>
+        <p>I am learning frontend development and building projects.</p>
+    </section>
+    
+    <section class="projects fade-in">
+        <h2>My Projects</h2>
+        <ul>
+            <li>Project 1 - <a href="#">View</a></li>
+            <li>Project 2 - <a href="#">View</a></li>
+        </ul>
+    </section>
+    <section id="education" class="fade-in">
+        <h2>Education</h2>
+        <input type="text" id="college" placeholder="Enter College Name">
+        <input type="text" id="degree" placeholder="Enter Degree">
+        <button onclick="saveEducation()">Save</button>
+        <p id="eduDisplay"></p>
+    </section>
+    
+    
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Git & GitHub</span>
+        </div>
+    </section>
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form action="https://forms.gle/YOUR_FORM_LINK" target="_blank">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        
+    </section>
+    
+    <footer>
+        <p>Connect with me: <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
+    </footer>
+    
+    
+</body>
+</html>
+<script src="script.js"></script>
